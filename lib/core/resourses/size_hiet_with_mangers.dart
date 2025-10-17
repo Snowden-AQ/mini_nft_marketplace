@@ -1,7 +1,7 @@
 class HeightManger{
   static const double height10=10.0;
   static const double height25=25.0;
-  static const double height50=50.0;
+  static const double height70=70.0;
 
   //=========================== Width ===========================
 }class WidthManger{
