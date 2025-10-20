@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-import '../../features/onBoarding/on_Boarding_Page.dart';
+import '../../features/onBoarding/screens/on_Boarding_Page.dart';
 
 class RouteMangers {
   static Map<String, WidgetBuilder> routes = {
