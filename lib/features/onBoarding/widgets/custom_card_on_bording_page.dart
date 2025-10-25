@@ -5,6 +5,7 @@ import 'package:mini_nft_marktpiace/core/resourses/string_managers.dart';
 
 import '../../../core/resourses/color_manger.dart';
 import '../../../core/resourses/fonit_size_mangers.dart';
+import '../../../core/resourses/route_mangers.dart';
 import '../../../core/resourses/size_hiet_with_mangers.dart';
 
 class CustomCardOnBordingPage extends StatelessWidget {
@@ -37,7 +38,9 @@ class CustomCardOnBordingPage extends StatelessWidget {
                   borderRadius: BorderRadius.circular( BorderRadiusManger.borderRadius40),
                   child: BackdropFilter(
                     filter:ImageFilter.blur(sigmaX: 100,sigmaY: 100),
-                    child: MaterialButton(onPressed: (){},
+                    child: MaterialButton(onPressed: (){
+                      Navigator.pushNamed(context, RoutName.kHomePage);
+                    },
                       child: const Text(StringManger.onBoardingButton),
                     ),
                   ),

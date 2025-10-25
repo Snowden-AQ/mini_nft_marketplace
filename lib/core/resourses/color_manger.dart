@@ -6,4 +6,5 @@ class ColorManger{
   static const Color kColorWhite=Color(0xffFFFFFF);
   static const Color kColorBlack=Color(0xffebebf5);
   static const Color kColorBlue=Color( 0xff97a9f6);
+  static const Color kPrimaryColor=Color(0xff211134);
 }
