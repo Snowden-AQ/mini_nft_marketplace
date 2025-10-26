@@ -39,7 +39,7 @@ class CustomCardOnBordingPage extends StatelessWidget {
                   child: BackdropFilter(
                     filter:ImageFilter.blur(sigmaX: 100,sigmaY: 100),
                     child: MaterialButton(onPressed: (){
-                      Navigator.pushNamed(context, RoutName.kHomePage);
+                      Navigator.pushReplacementNamed(context, RoutName.kHomePage);
                     },
                       child: const Text(StringManger.onBoardingButton),
                     ),
